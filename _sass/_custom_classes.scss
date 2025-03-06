@@ -1,12 +1,47 @@
-// Include here all custom classes to add extra styling on top of what the theme and bootstrap variables offer. 
+/*-----General styling-----*/
+main {
+    background-color: #434343;
+    border-radius: $border-radius;
+    padding: $spacer * 3;
+}
 
-//Example for highlighting the active page in the navigation:
+@media only screen and (max-width: 576px) {
+    #main {
+        padding: $spacer * .75;
+    }
+}
+
+
 /*-----Top navigation-----*/
 
-.navbar-nav .nav-item > a {
-    &.active {
-        color: $white;
-        background-color: $primary;
-        border-radius: $border-radius;
-    }
+.navbar-nav .nav-item > a.active {
+    color: $primary;
+}
+
+header .navbar .navbar-brand {
+    font-weight: 800;
+}
+
+/*-----Size components-----*/
+
+.mw-600 {
+    max-width: 600px;
+}
+
+main h1, #main .h1 {
+    font-weight: 800!important;
+}
+
+/*-----Custom primary button-----*/
+
+.btn-primary,
+.btn-primary:hover,
+.btn.sidebar-collapse,
+.btn-primary:active {
+    color: $light!important;
+}
+.hover-primary:hover, 
+.hover-primary:focus {
+    color: $primary!important;
+    background-color: #434343!important;
 }

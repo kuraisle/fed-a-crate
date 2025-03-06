@@ -1,2 +1,28 @@
 // Find out which theme variables you can use to fine tune the styling of your website here: https://github.com/ELIXIR-Belgium/elixir-toolkit-theme/blob/main/_sass/_variables.scss
 // Copy paste theme here and change where necessary .
+$dark-x: #282828;
+
+/*-----General styling-----*/
+$font-family-theme: 'Lilita', sans-serif;
+
+/*-----Top navigation-----*/
+$topnav-bg: $dark;
+$topnav-title-color: $white;
+$topnav-brand-height: 55px;
+
+/*-----Sidebar-----*/
+$sidebar-bg: transparent;
+$sidebar-color: $light;
+$sidebar-lvl2-bg: transparent;
+$sidebar-lvl2-color: $light;
+$sidebar-lvl3-bg: transparent;
+$sidebar-lvl3-color: $light;
+$sidebar-bg-active: #434343;
+$sidebar-color-active: $primary;
+
+/*-----Footer-----*/
+$footer-bg: $dark-x;
+$footer-color: $light;
+$footer-link-color: $light;
+$footer-link-color-hover: $primary;
+$footer-copyright-bg: $dark-x;

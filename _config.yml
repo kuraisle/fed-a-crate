@@ -44,14 +44,15 @@ theme_variables:
   # toc:
   #   min_headings: 2
   #   headings: 'h2'
-  # topnav:
-    # theme: light
-    # brand_logo: assets/img/main_logo.svg
+  topnav:
+    theme: dark
+    brand_logo: assets/img/main_logo.svg
     # github: true
     # twitter: false
   # theme_color: 0d6efd
-  # fonts:
-  #   - url towards a font
+  fonts:
+    - https://fonts.googleapis.com/css2?family=Lilita+One&family=Manrope:wght@200..800&display=swap
+
 
 plugins:
   - elixir-toolkit-theme-plugins
