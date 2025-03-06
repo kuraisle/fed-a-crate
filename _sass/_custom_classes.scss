@@ -22,6 +22,18 @@ header .navbar .navbar-brand {
     font-weight: 800;
 }
 
+.search-results {
+    background-color: $dark;
+}
+
+.search-results a:hover {
+    background-color: $dark-x;
+}
+
+.search-result-previews {
+    color: $light;
+}
+
 /*-----Size components-----*/
 
 .mw-600 {
