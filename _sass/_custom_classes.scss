@@ -1,6 +1,6 @@
 /*-----General styling-----*/
 main {
-    background-color: #434343;
+    background-color: $light;
     border-radius: $border-radius;
     padding: $spacer * 3;
 }
@@ -9,6 +9,16 @@ main {
     #main {
         padding: $spacer * .75;
     }
+}
+
+/*-----Spacing layout-----*/
+
+#content {
+    margin-bottom: 0!important;
+}
+
+#main {
+    margin-bottom: $spacer * 3;
 }
 
 
@@ -23,15 +33,20 @@ header .navbar .navbar-brand {
 }
 
 .search-results {
-    background-color: $dark;
+    background-color: $dark-xx;
 }
 
 .search-results a:hover {
     background-color: $dark-x;
 }
 
-.search-result-previews {
-    color: $light;
+.input-group-text,
+#search-input,
+#search-input::placeholder,
+.search-result-previews,
+.search-result-doc .search-result-doc-title
+ {
+    color: $light!important;
 }
 
 /*-----Size components-----*/
@@ -55,5 +70,5 @@ main h1, #main .h1 {
 .hover-primary:hover, 
 .hover-primary:focus {
     color: $primary!important;
-    background-color: #434343!important;
+    background-color: $dark-xx!important;
 }
