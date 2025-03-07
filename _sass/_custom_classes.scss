@@ -11,6 +11,10 @@ main {
     }
 }
 
+#back-to-top {
+    color: $dark!important;
+}
+
 /*-----Spacing layout-----*/
 
 #content {
@@ -44,7 +48,8 @@ header .navbar .navbar-brand {
 #search-input,
 #search-input::placeholder,
 .search-result-previews,
-.search-result-doc .search-result-doc-title
+.search-result-doc .search-result-doc-title,
+.search-no-result
  {
     color: $light!important;
 }
