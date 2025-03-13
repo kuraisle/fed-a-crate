@@ -5,27 +5,27 @@ main {
     padding: $spacer * 3;
 }
 
-@media only screen and (max-width: 576px) {
+@include media-breakpoint-down(sm) {
     #main {
-        padding: $spacer * .75;
+        padding: $spacer * 0.75;
     }
 }
 
 #back-to-top {
-    color: $dark!important;
+    color: $dark !important;
 }
 
 /*-----Spacing layout-----*/
 
 #content {
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
 }
 
 #main {
     margin-bottom: $spacer * 3;
 }
 
-@media (min-width: 1200px) {
+@include media-breakpoint-up(xl) {
     #main:has(.landingpage) {
         display: block;
     }
@@ -54,9 +54,8 @@ header .navbar .navbar-brand {
 #search-input::placeholder,
 .search-result-previews,
 .search-result-doc .search-result-doc-title,
-.search-no-result
- {
-    color: $light!important;
+.search-no-result {
+    color: $light !important;
 }
 
 /*-----Size components-----*/
@@ -65,8 +64,9 @@ header .navbar .navbar-brand {
     max-width: 600px;
 }
 
-main h1, #main .h1 {
-    font-weight: 800!important;
+main h1,
+#main .h1 {
+    font-weight: 800 !important;
 }
 
 /*-----Custom primary button-----*/
@@ -74,20 +74,22 @@ main h1, #main .h1 {
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:active {
-    color: $dark!important;
+    color: $dark !important;
 }
-.hover-primary:hover, 
+.hover-primary:hover,
 .hover-primary:focus {
-    color: $primary!important;
-    background-color: $dark-xx!important;
+    color: $primary !important;
+    background-color: $dark-xx !important;
 }
 
 .btn.sidebar-collapse {
-    color: $light!important;
+    color: $light !important;
 }
 
-
-.landingpage  {
+.landingpage {
+    .landing-image {
+        max-width:35rem;
+    }
     .card {
         border: 1px transparent solid;
         &:hover {
