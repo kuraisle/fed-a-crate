@@ -68,12 +68,32 @@ main h1, #main .h1 {
 
 .btn-primary,
 .btn-primary:hover,
-.btn.sidebar-collapse,
 .btn-primary:active {
-    color: $light!important;
+    color: $dark!important;
 }
 .hover-primary:hover, 
 .hover-primary:focus {
     color: $primary!important;
     background-color: $dark-xx!important;
+}
+
+.btn.sidebar-collapse {
+    color: $light!important;
+}
+
+
+.landingpage  {
+    .card {
+        border: 1px transparent solid;
+        &:hover {
+            border-color: rgb(160.5, 237, 183.5);
+            outline: 0;
+            box-shadow: 0 0 0 0.25rem rgba(66, 219, 112, 0.25);
+        }
+
+        .card-img-top {
+            width: unset;
+            padding: 3rem;
+        }
+    }
 }

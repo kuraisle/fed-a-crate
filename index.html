@@ -1,0 +1,89 @@
+---
+layout: none
+---
+
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+    {% include topnav.html search=false %}
+    <div class="landingpage">
+        <section class="container g-lg-5 mb-5 text-center">
+            <div>
+
+            </div>
+            <div>
+                <h1 class="text-white">Something about Fed-A-Crate here</h1>
+                <p class="text-white mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis fermentum velit.</p>
+            </div>
+        </section>
+        <section id="search-section" class="bg-dark py-5">
+            <div class="container g-lg-5">
+                <div class="container g-lg-5">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <div class="card bg-white h-100">
+                                <img src="{{ '/assets/img/icons/undraw_fingerprint_kdwq.svg' | relative_url }}" class="card-img-top h-icon-6 mx-auto" alt="alt-text">
+                                <div class="card-body text-center">
+                                    <a href="{{ '/about' | relative_url }}" class="stretched-link">
+                                        <h3 class="card-title no-anchor text-dark">About</h3>
+                                    </a>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis fermentum velit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card bg-white h-100">
+                                <img src="{{ '/assets/img/icons/undraw_fingerprint_kdwq.svg' | relative_url }}" class="card-img-top h-icon-6 mx-auto" alt="alt-text">
+                                <div class="card-body text-center">
+                                    <a href="{{ '/use-cases' | relative_url }}" class="stretched-link">
+                                        <h3 class="card-title no-anchor text-dark">Use cases</h3>
+                                    </a>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis fermentum velit</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card bg-white h-100">
+                                <img src="{{ '/assets/img/icons/undraw_fingerprint_kdwq.svg' | relative_url }}" class="card-img-top h-icon-6 mx-auto" alt="alt-text">
+                                <div class="card-body text-center">
+                                    <a href="{{ '/best-practices' | relative_url }}" class="stretched-link">
+                                        <h3 class="card-title no-anchor text-dark">Best practices</h3>
+                                    </a>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis fermentum velit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="py-5 bg-light">
+            <div class="container g-lg-5">
+                <div class="row">
+                    <div class="col-lg-2 my-auto">
+                        <img class="h-icon-8" src="{{ '/assets/img/icons/undraw_fingerprint_kdwq.svg' | relative_url }}" alt="Contributors icon">
+                    </div>
+                    <div class="col-lg-7">
+                        <h2>We welcome contributors!</h2>
+                        <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}"><b>amazing
+                                    community contributors</b></a>. Fed-A-Crate is an open community project, and you are welcome to join us!
+                        </p>
+                    </div>
+                    <div class="col-lg-3 my-auto">
+                        <a class="btn btn-primary text-dark btn-lg rounded-pill px-4" href="{{ '/how_to_contribute' | relative_url }}">Start contributing</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </div>
+    {%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
+    {% include scroll-top.html %}
+    {%- endif %}
+    {% include footer.html %}
+    {% include cookie-popup.html %}
+</body>
+
+</html>
