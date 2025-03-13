@@ -25,6 +25,11 @@ main {
     margin-bottom: $spacer * 3;
 }
 
+@media (min-width: 1200px) {
+    #main:has(.landingpage) {
+        display: block;
+    }
+}
 
 /*-----Top navigation-----*/
 
@@ -92,7 +97,6 @@ main h1, #main .h1 {
         }
 
         .card-img-top {
-            width: unset;
             padding: 3rem;
         }
     }
