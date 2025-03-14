@@ -65,7 +65,7 @@ theme_variables:
     brand_logo: assets/img/main_logo.svg
     # github: true
     # twitter: false
-  # theme_color: 0d6efd
+  theme_color: 42db70
   fonts:
     - https://fonts.googleapis.com/css2?family=Lilita+One:wght@200..800&display=swap
 
