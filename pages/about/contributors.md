@@ -1,6 +1,6 @@
 ---
 title: Contributors
-custom_editme: _data/CONTRIBUTORS.yaml
+custom_editme: _data/CONTRIBUTORS.yml
 toc: false
 ---
 
