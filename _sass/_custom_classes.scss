@@ -1,14 +1,8 @@
 /*-----General styling-----*/
-main {
-    background-color: $light;
-    border-radius: $border-radius;
-    padding: $spacer * 3;
-}
 
-@include media-breakpoint-down(sm) {
-    #main {
-        padding: $spacer * 0.75;
-    }
+main h1,
+#main .h1 {
+    font-weight: 800 !important;
 }
 
 #back-to-top {
@@ -17,17 +11,25 @@ main {
 
 /*-----Spacing layout-----*/
 
-#content {
-    margin-bottom: 0 !important;
-}
-
-#main {
-    margin-bottom: $spacer * 3;
-}
-
 @include media-breakpoint-up(xl) {
     #main:has(.landingpage) {
         display: block;
+    }
+}
+
+#main {
+    background-color: $light;
+    border-radius: $border-radius;
+    padding: $spacer * 3;
+    margin-bottom: $spacer * 3;
+    #content {
+        margin-bottom: 0 !important;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    #main {
+        padding: $spacer * 0.75;
     }
 }
 
@@ -58,18 +60,7 @@ header .navbar .navbar-brand {
     color: $light !important;
 }
 
-/*-----Size components-----*/
-
-.mw-600 {
-    max-width: 600px;
-}
-
-main h1,
-#main .h1 {
-    font-weight: 800 !important;
-}
-
-/*-----Custom primary button-----*/
+/*-----Custom buttons-----*/
 
 .btn-primary,
 .btn-primary:hover,
@@ -86,9 +77,11 @@ main h1,
     color: $light !important;
 }
 
+/*-----Landingpage customizations-----*/
+
 .landingpage {
     .landing-image {
-        max-width:35rem;
+        max-width: 35rem;
     }
     .card {
         border: 1px transparent solid;
@@ -97,10 +90,10 @@ main h1,
             outline: 0;
             box-shadow: 0 0 0 0.25rem rgba(66, 219, 112, 0.25);
         }
-
     }
 }
 
+/*-----Contributor cards-----*/
 
 .contributor-cards .card-title {
     color: $light;
