@@ -1,6 +1,6 @@
 ---
 title: About
-toc: false
+page_img: icons/undraw_gdpr_g020.svg
 ---
 
 
@@ -12,3 +12,13 @@ The Fed-A-Crate project aims to test federated analysis solutions envisioned by 
 The project is funded by the ELIXIR Human Data and Translational Research Commissioned Service Call of 2024 and started on January 1, 2025.
 
 Our goal is to advance federated analysis solutions by comparing different approaches to identify the most effective methods for analyzing sensitive genomic data.
+
+## Who are we?
+
+This project is a collaboration between different research institutions across four ELIXIR nodes:
+
+- ELIXIR Belgium - Vlaams Instituut voor Biotechnologie
+- ELIXIR Spain - Barcelona Supercomputing Center
+- ELIXIR France - Université de Bordeaux
+- ELIXIR Portugal - BioData.pt
+- ELIXIR United Kingdom - University of Manchester and University of Nottingham

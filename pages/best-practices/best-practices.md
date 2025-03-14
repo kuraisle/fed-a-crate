@@ -1,5 +1,6 @@
 ---
 title: Best practices
+page_img: icons/undraw_order-delivered_puaw.svg
 ---
 
 
