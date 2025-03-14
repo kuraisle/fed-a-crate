@@ -18,6 +18,14 @@ defaults:
 # Define here page metadata attributes for all pages at once or on specific directories. More information: https://jekyllrb.com/docs/configuration/front-matter-defaults/
   -
     scope:
+      path: "pages/*"
+      type: "pages"
+    values:
+      permalink: /:basename
+      layout: "page"
+      sidebar: false
+  -
+    scope:
       path: "pages/about/"
       type: "pages"
     values:

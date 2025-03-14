@@ -10,10 +10,10 @@
 #    affiliation: affiliation
 #    image_url: absolute path to image (default image from github)
 
-Example contributor:
-    git: 
-    email: 
-    orcid: 
+Bert Droesbeke:
+    git: bedroesb
+    email: bert.droesbeke@vib.be
+    orcid: 0000-0003-0522-5674
     role: 
-    affiliation: 
+    affiliation: VIB Data Core / ELIXIR-BE
 

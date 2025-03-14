@@ -3,3 +3,5 @@ subitems:
     url: /about
   - title: Who are we?
     url: /who-are-we
+  - title: Contributors
+    url: /contributors

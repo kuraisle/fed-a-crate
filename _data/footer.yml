@@ -11,6 +11,8 @@ columns:
     children: 
       - url_text: Home
         url: /
+      - url_text: How to contribute
+        url: how-to-contribute
   - type: links
     width: 3
     children: 
