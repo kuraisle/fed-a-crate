@@ -2,7 +2,7 @@
 
 # Fed-A-Crate
 
-This repository contains the code for the Fed-A-Crate project website. The Fed-A-Crate project is an EU-funded project that runs from January 2025 to October 2024. 
+This repository contains the code for the Fed-A-Crate project website. The Fed-A-Crate project is an EU-funded project that runs from January 2025 to .... 
 
 ## Contact
 For queries about the project and the website content please email by-covid-admin@elixir-europe.org.
