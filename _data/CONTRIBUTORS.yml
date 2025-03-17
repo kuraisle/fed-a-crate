@@ -16,4 +16,22 @@ Bert Droesbeke:
     orcid: 0000-0003-0522-5674
     role: 
     affiliation: VIB Data Core / ELIXIR-BE
+Stian Soiland-Reyes:
+    git: stain
+    email: soiland-reyes@manchester.ac.uk
+    orcid: 0000-0001-9842-9718
+    role: Five Safes RO-Crate
+    affiliation: The University of Manchester / ELIXIR-UK
+Eli Chadwick:
+    git: elichad
+    email: eli.chadwick@manchester.ac.uk
+    orcid: 0000-0002-0035-6475
+    role: Five Safes RO-Crate
+    affiliation: The University of Manchester / ELIXIR-UK
+Alexander Hambley:
+    git: alexhambley
+    email: alexander.hambley@manchester.ac.uk
+    orcid: 0000-0003-1193-6632
+    role: Five Safes RO-Crate
+    affiliation: The University of Manchester / ELIXIR-UK
 
