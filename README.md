@@ -8,10 +8,10 @@ This repository contains the code for the Fed-A-Crate project website. The Fed-A
 For queries about the project and the website content please email ...@elixir-europe.org.
 
 ## Website
-The website makes use Jekyll and uses the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/).
+The website makes uses Jekyll and the [ELIXIR Toolkit Theme](https://elixir-belgium.github.io/elixir-toolkit-theme/).
 
 ## Aknowledgements 
 
-Contributors guide are based on the RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences URL: https://rdmkit.elixir-europe.org.
+The contributors guide are based on the contribute section in the RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences URL: https://rdmkit.elixir-europe.org.
 
 
