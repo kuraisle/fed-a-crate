@@ -1,6 +1,6 @@
 ---
 title: Partners
-custom_editme: _data/affiliations.yaml
+custom_editme: _data/affiliations.yml
 ---
 
 ## Institutions
