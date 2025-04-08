@@ -4,9 +4,9 @@
   expose: true
   type: institution
   url: https://www.vib.be/
-- name: The Manchester University
+- name: eScience Lab, The University of Manchester
   image_url: /images/institutions/logo-university-of-manchester.svg
   pid: https://ror.org/02aswte26
   expose: true
   type: institution
-  url: https://www.manchester.ac.uk/
+  url: https://esciencelab.org.uk/
